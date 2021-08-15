@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: fantasy;
+}
+.hero{
+    background-image:url("../css/images/Bluemountains.jpg");
+    background-size: cover;
+    padding: 450px 300px;
+    background-repeat: no-repeat;
+    margin: 0px 0px; 
+}
+.hero h1{
+    display: inline;
+    font-weight: 500 ;
+    font-stretch: expanded;
+    font-size: 55px;
+    Color: rgb(145, 212, 243);
+    Font: Marker Felt;
+    position:absolute;
+    top: 100px;
+    left: 21%;
+}
+.hero nav{
+   position:absolute;
+   top: 0;
+   right: 0;
+}
+.hero li{
+    display:inline; 
+    text-decoration: none;
+}
+
+.aboutme h1{
+    text-align: center;
+}
+
+.mybio{
+float: left;
+display:inline;
+background-color:lightseagreen;
+width: 50%;
+margin: 20px 20px 20px 20px;
+border-style:ridge;
+border-color:black;
+}
+.aboutme img{
+    display:inline;
+    width:300px;
+    height:300px;
+    float:right;
+
+}
+#My-Work{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.Mywork h1{
+    Text-align:center;
+}
+.Runbuddy{
+    background-color:lightpink;
+    padding:90px 40px;
+    
+}
+.Robotgladiators{
+    
+    background-color:lightgreen;
+    padding:90px 40px;
+}
+.Horiseon{
+   
+    background-color:lightgray;
+    padding:90px 40px;
+}
