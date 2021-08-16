@@ -22,7 +22,7 @@ body {
     font-stretch: expanded;
     font-size: 55px;
     Color: rgb(145, 212, 243);
-    Font: Marker Felt;
+    Font: 'Marker Felt';
     position:absolute;
     top: 100px;
     left: 21%;
@@ -36,48 +36,124 @@ body {
     display:inline; 
     text-decoration: none;
 }
-
+.aboutme{
+    box-sizing: border-box;
+    background-color: rgb(32, 99, 224);
+    width: 95%;
+    height: 500px;
+    display:table;
+    margin: 25px auto auto auto;
+    border:groove;
+   
+}
 .aboutme h1{
     text-align: center;
+    
 }
-
 .mybio{
-float: left;
-display:inline;
 background-color:lightseagreen;
-width: 50%;
-margin: 20px 20px 20px 20px;
+margin: 10px 20px 20px 20px;
 border-style:ridge;
 border-color:black;
+text-align:center;
+position: absolute;
+box-sizing:border-box;
+width:50%;
 }
 .aboutme img{
-    display:inline;
-    width:300px;
-    height:300px;
-    float:right;
-
+width:300px;
+height:300px;
+float:right;
 }
-#My-Work{
+.Resumesection{
+background-color:lightseagreen;
+margin: 10px 20px 20px 20px;
+border-style:ridge;
+border-color:black;
+text-align:center;
+box-sizing:border-box;
+width:50%;
+float:right;
+}
+.Mywork{
+    width: 80%;
+    margin: 100px 50px 50px 100px;
+}
+.flexall{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    row-gap: 20px;
+    justify-content: space-around;
+}
+.surfreport{
     width: 100%;
-}
-.Mywork h1{
-    Text-align:center;
-}
-.Runbuddy{
-    background-color:lightpink;
-    padding:90px 40px;
+    border-radius: 14px;
+    border: 4px solid #fb3e55;
+    background-color: #393b4f;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url(https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
     
+}
+
+.Runbuddy{
+    width: 45%;
+    border-radius: 14px;
+    margin:auto;
+    border: 4px solid #fb3e55;
+    background-color: #393b4f;
+    font-size: 22px;
+    font-weight: bold;
+    background-image: url(https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 100px;
 }
 .Robotgladiators{
-    
-    background-color:lightgreen;
-    padding:90px 40px;
+    width: 45%;
+    border-radius: 14px;
+    margin:auto;
+    border: 4px solid #fb3e55;
+    background-color: #393b4f;
+    font-size: 22px;
+    font-weight: bold;
+    background-image: url(https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 100px;
 }
 .Horiseon{
-   
-    background-color:lightgray;
-    padding:90px 40px;
+    width: 45%;
+    border-radius: 14px;
+    margin:auto;
+    border: 4px solid #fb3e55;
+    background-color: #393b4f;
+    font-size: 22px;
+    font-weight: bold;
+    background-image: url(https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 100px;
+}
+.project{
+    width: 45%;
+    border-radius: 14px;
+    margin:auto;
+    border: 4px solid #fb3e55;
+    background-color: #393b4f;
+    font-size: 22px;
+    font-weight: bold;
+    background-image: url(https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 100px;
 }
