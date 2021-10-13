@@ -10,94 +10,84 @@ body {
     height:100%;
     font-family: 'Fantasy';
 }
-.header {
+#header {
     background-color:rgb(51, 46, 46);
     padding: 25px;
-    height: 75px;
+    height: 80px;
    
 }
-.header h1{
+#header h1{
     font-weight: bold;
     font-size: 35px;
     color:cornsilk;
     display: inline;
     margin: 0 30px;
 }
-header a{
+#navigation{
+    float: right;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+#navigation ul li{
+    display:inline-block
+}
+#navigation ul li a{
     text-decoration: none;
+    color:cornsilk;
+    padding: 25px;
 }
-.header nav{
-    float:right;
-    justify-content:right;
-    text-decoration: none;
-    display: inline;
- }
- .header nav ul li{
-     display:inline; 
- }
- .header nav ul li a{
-    font-weight: lighter;
-    font-size: 22px;
-    text-decoration: none;
-    display:inline;
- }
-
-
-
-.aboutme{
-    margin: 50px 0px 50px 0px;
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    height:fit-content;
-    align-items: stretch;
-    width:100%;
-    min-height:400px;
-}
-.title {
- width:20%;
- border:double;
- min-height: 100%;
-
-}
-.title p{
-    float:right;
-}
-.mybio{
-display:inline;
-margin: 0px;
-width:80%;
-}
-.mybio span{
-text-align: center;
-display:inline;
-float:left;
-}
-.mybio img{
-width: 300px;
-height:300px;
-display:inline;
-float:right;
-vertical-align:middle;
-
-
+#jumbo{
+    height: 500px;
+    width: 100%;
+    background-image: url('./images/Mountainbackground.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.Mywork{
+/* MY BIO SECTION */
+#mybio{
+    margin: 50px;
+    height: 400px;
+    width:75%;
+}
+#mybio h1{
+    padding-top:0px;
+    text-align:top;
+}
+#aboutme{
+margin: 20px;
+padding: 50px;
+background-color: darkslategray;
+height: 400px;
+display:inline-block;
+width: 1600px;
+}
+#aboutme p{
+    float:left;
+    font-size: 25px;
+    color:cornsilk;
+    width: 75%;
+    font: 'copperplate';
+   
+}
+#aboutme img{
+    margin-left: 25px;
+    float: right;
+    height:300px;
+    width:300px;
+    
+}
+
+/* MY WORK SECTION */
+#My-Work{
 width: 100%;
-height:810px;
-margin-right:auto;
+height:900px;
 display:flex;
-}
-
-.myworktitle{
-width: 20%;
-height: 100%;
-display: flex;
-flex-direction: column;
+position:relative;
 
 }
 .flexall{
+    margin: 50px;
     display:flex;
     flex-wrap: wrap;
     row-gap: 20px;
@@ -105,7 +95,7 @@ flex-direction: column;
     width:80%;
     float:right;
 }
-.surfreport{
+.runbuddy{
     float:right;
     width: 60%;
     border-radius: 14px;
@@ -115,7 +105,7 @@ flex-direction: column;
     font-weight: bold;
     margin-bottom: 15px;
     margin-inline-start: 50px;
-    background-image: url(https://via.placeholder.com/1000/393b4f/fb3e55?text=Placeholder);
+    background-image: url('../css/images/RunBuddyClip.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px 0;
@@ -123,7 +113,7 @@ flex-direction: column;
     
 }
 
-.RunBuddy{
+.tipsy{
     width: 40%;
     border-radius: 14px;
     border: 4px solid lightblue;
@@ -131,74 +121,195 @@ flex-direction: column;
     padding: 20px 0;
     min-height: 250px;
     margin-inline-start: 50px;
-    
+    background-image: url('../css/images/Letsgetbackground.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
 
 
-.Robotgladiators{
+.weather{
     width: 40%;
     border-radius: 14px;
     border: 4px solid lightblue;
     background-color: #393b4f;
     font-size: 22px;
     font-weight: bold;
-    
+    background-image: url('../css/images/Untitled.png');
     background-size: cover;
     background-position: center;
     padding: 20px 0;
     min-height: 250px;
 }
-.Horiseon{
+.password{
     width: 40%;
     border-radius: 14px;
     border: 4px solid lightblue;
     background-color: #393b4f;
     font-size: 22px;
     font-weight: bold;
+    background-image: url('../css/images/password.png');
     background-size: cover;
     background-position: center;
     padding: 20px 0;
     min-height: 250px;
     margin-inline-start: 50px;
 }
-.project{
+.work{
     width: 40%;
     border-radius: 14px;
-    
     border: 4px solid lightblue;
     background-color: #393b4f;
     font-size: 22px;
     font-weight: bold;
+    background-image: url('../css/images/workday.png');
     background-size: cover;
     background-position: center;
     padding: 20px 0;
     min-height: 250px;
 }
-.Contactme{
-    display:flex;
-    margin-top:100px;
-}
-.contactmetitle{
-    height:200px;
-    width:20%;
-    margin: 50px 0px;
-}
-.contactmetitle h1{
-    float:right;
+#ContactMe{
+position:relative;
 }
 .thecontacts{
-    width:80%;
-    margin:50px 0px;
-    text-align:center;
-    vertical-align:center;
+    margin-left: 400px;
 }
-.thecontacts nav{
-    padding-top: 100px;
-    vertical-align:center;
-}
-.thecontacts nav li{
+.thecontacts nav ul li{
     display:inline;
-    margin-right: 45px; 
-    vertical-align:center;
-    font-size: 22px;
+    font-size: 35px;
+    color:cornsilk;
+    padding: 10px;
+    text-decoration:none;
 }
+.thecontacts nav ul li a{
+    text-decoration: none;
+    
+}
+
+/* MEDIA QUERIES */
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+    body {
+      background-color: darkslategray;
+    }
+  
+    main {
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+    #jumbo,
+    #mybio,
+    #My-Work,
+    #ContactMe {
+      width: 100%;
+    }
+    #jumbo,
+    #mybio,
+    #My-Work,
+    #ContactMe {
+      margin-top: 30px;
+    }
+  }
+  
+  /* 780px*/
+  @media screen and (max-width: 768px) {
+    body {
+      background-color:darkslategray;
+    }
+  
+    main {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #jumbo,
+    #mybio,
+    #My-Work,
+    #ContactMe {
+      width: 100%;
+    }
+  
+    #mybio,
+    #My-Work,
+    #ContactMe {
+      margin-top: 40px;
+    }
+  }
+  
+  /* 600px */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: darkslategray;
+    }
+  
+    main {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #jumbo,
+    #mybio,
+    #My-Work,
+    #ContactMe{
+      width: 100%;
+    }
+  
+    
+    #mybio,
+    #My-Work,
+    #ContactMe {
+      margin-top: 40px;
+    }
+  }
+  
+  /* 480px */
+  @media screen and (max-width: 480px) {
+    body {
+      background-color:darkslategray;
+    }
+  
+    main {
+      width: 100%;
+      padding: 20px;
+    }
+    #header,
+    #jumbo,
+    #mybio,
+    #My-Work,
+    #ContactMe {
+      width: 100%;
+    }
+    #jumbo,
+    #mybio,
+    #My-Work,
+    #ContactMe {
+      margin-top: 40px;
+    }
+  }
+  
+  /* 300px */
+  @media screen and (max-width: 300px) {
+    body {
+      background-color: darkslategray;
+    }
+  
+    main {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #jumbo,
+    #mybio,
+    #My-Work,
+    #ContactMe {
+      width: 100%;
+    }
+  
+    #mybio,
+    #My-Work,
+    #ContactMe {
+      margin-top: 40px;
+    }
+  }
