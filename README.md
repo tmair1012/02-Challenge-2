@@ -12,5 +12,5 @@ The biggest challenges I had with this project were getting media queries to wor
 
 ## Pictures
 ![Screenshot](https://user-images.githubusercontent.com/87788050/137206256-618febeb-69fa-475c-adce-f63834e8c692.png)
-![Screenshot]()
+
 
